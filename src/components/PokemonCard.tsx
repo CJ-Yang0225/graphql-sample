@@ -41,7 +41,7 @@ export const PokemonCard: React.FC<PokemonProps> = ({
   restProps,
 }) => {
   return (
-    <Wrapper className={classNames("card", classes)} {...restProps}>
+    <Wrapper>
       <Title>
         <Name>{pokemon.name}</Name>
       </Title>
